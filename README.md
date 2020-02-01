@@ -3,7 +3,9 @@
 
 On a Debian and Ubuntu systems, there is a file called `/var/lib/dpkg/status` that holds information about software packages that the system knows about. This app will expose some key information about these packages via a React single page application.
 
-## Instructions
+See it live on [Github pages](https://wes337.github.io/dpkg-status-htmlizer/)!
+
+## Development build
 
 ```json5
 yarn start
