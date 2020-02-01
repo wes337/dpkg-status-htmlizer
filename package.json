@@ -1,6 +1,6 @@
 {
   "name": "dpkg-status-htmlizer",
-  "description": "Display info about packages using the dpkg status file.",
+  "description": "Display info about packages inside the dpkg status file.",
   "author": "wes337",
   "version": "0.1.0",
   "private": true,
