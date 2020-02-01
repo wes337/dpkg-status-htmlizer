@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1144e728a4643bb12312792e1ff83d4",
+    "revision": "7d427b985c06d586d95217d887b5c5e1",
     "url": "/dpkg-status-htmlizer/index.html"
   },
   {
