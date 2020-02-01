@@ -1,0 +1,64 @@
+Package: python-apt-common
+Status: install ok installed
+Priority: optional
+Section: python
+Installed-Size: 248
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: python-apt
+Version: 1.6.5ubuntu0.2
+Replaces: python-apt (<< 0.7.98+nmu1)
+Breaks: python-apt (<< 0.7.98+nmu1)
+Enhances: python-apt, python3-apt
+Description: Python interface to libapt-pkg (locales)
+ The apt_pkg Python interface will provide full access to the internal
+ libapt-pkg structures allowing Python programs to easily perform a
+ variety of functions.
+ .
+ This package contains locales.
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+
+Package: node-lockfile
+Status: install ok installed
+Priority: extra
+Section: web
+Installed-Size: 43
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.4.1-1
+Depends: nodejs
+Description: Asynchronous file lock module for Node.js
+ This module provides asynchronous and synchronous concurrent file
+ locking. It supports timeouts, expirations, and retrying upon failure.
+ .
+ Node.js is an event-based server-side javascript engine.
+Original-Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Homepage: https://github.com/isaacs/lockfile
+
+Package: libxcb-present0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 32
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Multi-Arch: same
+Source: libxcb
+Version: 1.13-2~ubuntu18.04
+Depends: libc6 (>= 2.4), libxcb1
+Description: X C Binding, present extension
+ This package contains the library files needed to run software using
+ libxcb-present, the present extension for the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Homepage: https://xcb.freedesktop.org
