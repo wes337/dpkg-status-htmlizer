@@ -125,9 +125,10 @@ function App() {
     <div className="dpkg__status__htmlizer">
       <section className="header">
         <h1>DPKG HTMLizer 2000&trade;</h1>
+        <a className="source__link" href="https://github.com/wes337/dpkg-status-htmlizer" rel="noopener noreferrer" target="_blank">&lt;&#47;&gt; Source Code</a>
         <p>
           Select your DPKG status file, then press the <span>HTMLize</span> button.<br />
-          <em>Don't have one? Use this <a href={statusData} rel="noopener noreferrer" target="_blank">example</a> file.</em>
+          <em>Don't have a DPKG status file? Use this <a href={statusData} rel="noopener noreferrer" target="_blank">example</a> file.</em>
         </p>
       </section>
       <section className="input">
